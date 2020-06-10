@@ -1,0 +1,4 @@
+para baixar um projeto do Github,
+basta baixar a package.json e executar
+"npm install", que vai ser baixada todas as 
+dependências
