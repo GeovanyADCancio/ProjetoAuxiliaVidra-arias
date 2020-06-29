@@ -1,0 +1,59 @@
+.ProfileBudgets-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.ProfileBudgets-container header{
+    display: flex;
+    align-items: center;
+}
+.ProfileBudgets-container header span{
+    font-size: 18px;
+    margin-left: 24px;
+}
+
+.ProfileBudgets-container header img{
+    height: 64px;
+}
+.ProfileBudgets-container header a{
+    width: 275px;
+    margin-left: auto;
+    margin-top: 0;
+}
+.ProfileBudgets-container header a + a{
+    margin-left: 4px;
+}
+.ProfileBudgets-container header button{
+    margin-left: 4px;
+    height: 50px; /*altura*/
+    width: 50px ;/*largura*/
+    background-color: #FFFFFF;
+    border: 1px solid #FF0000;
+}
+.ProfileBudgets-container ul  {
+    display: grid;
+    grid-template-columns:  repeat(1, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+    margin-top: 15px;
+}
+.ProfileBudgets-container ul li{
+    background: #E2ECFF;
+    display: flex;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+}
+.ProfileBudgets-container ul li button{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+    background: transparent;
+}
+.ProfileBudgets-container header span + span{
+    margin-left: 2px;
+    color: #FF0000;
+}

@@ -8,9 +8,7 @@ module.exports = {
     },
 
     async create(request, response){
-        const { requester, description, date } = request.body;
-
-        const client_id = request.headers.authorization;
+        const { requester, description, date, client_id } = request.body;
 
         const [ id ] = await connection('budget')
             .insert({

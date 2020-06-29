@@ -7,9 +7,7 @@ module.exports = {
         return response.json( services );
     },
     async create(request,response){
-        const {requester, description, date} = request.body;
-
-        const client_id = request.headers.authorization;
+        const {requester, description, date, client_id} = request.body;
 
         const [idservice] = await connection('serviceorder').insert({
             requester,

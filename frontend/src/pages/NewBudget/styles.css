@@ -1,0 +1,31 @@
+.NewBudget-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NewBudget-container section img{
+    width: 350px;
+    height: 350px;
+}
+.NewBudget-container form{
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.NewBudget-container form input{
+    font-size: 18px;
+    margin-top: 2px;
+}
+.NewBudget-container section p{
+    margin-bottom: 40px;
+}
+.NewBudget-container section h1{
+    margin-bottom: 20px;
+}
